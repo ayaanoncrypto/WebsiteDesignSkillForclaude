@@ -122,9 +122,17 @@ Small documentation fixes and preview improvements are welcome. Before opening a
 
 Use the repository issue form for site problems. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution checklist.
 
-## Project direction
+<div align="center">
 
-The public goal is to publish the underlying skill file when the repository reaches 100 stars. The planned release includes the catalogs, generators, and references used to produce the showcase.
+## The 100-star goal
+
+> ### If this repo reaches **100 stars**, I publish the **skill file**.
+> The trained skill generated every pixel of this page:
+> 22 catalogs · 18 generators · ~7,000 options · ready to drop into Claude.
+
+**Star · Watch · Share**
+
+</div>
 
 ## Credits
 
