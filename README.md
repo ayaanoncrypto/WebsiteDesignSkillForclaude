@@ -1,96 +1,139 @@
 <div align="center">
 
-# ✦ ayaan.lol
+# ayaan.lol
 
-### *the website design skill for Claude — rendered as one living page*
+### A living showcase for a website design skill for Claude
 
-**One HTML file · 11 chapters · 87 sections · ~7,000 animated inventions · zero images**
+<p>
+  <a href="https://ayaan.lol"><strong>Open the live showcase</strong></a>
+  ·
+  <a href="https://github.com/ayaanoncrypto/WebsiteDesignSkillForclaude/issues">Report an issue</a>
+</p>
 
-Every color, path, ease and pattern on this page was invented by a custom-trained
-animation skill and rendered in pure code — inline SVG, CSS motion and a local engine.
-No images. No build step. Works fully offline.
+![Sections](https://img.shields.io/badge/sections-87-0ae448?style=flat-square&labelColor=0e100f)
+![Options](https://img.shields.io/badge/options-6%2C700%2B-fffce1?style=flat-square&labelColor=0e100f)
+![Images](https://img.shields.io/badge/images-0-ff8709?style=flat-square&labelColor=0e100f)
+![Runtime](https://img.shields.io/badge/runtime-no_build-00bae2?style=flat-square&labelColor=0e100f)
+![License](https://img.shields.io/badge/license-not_yet_published-fec5fb?style=flat-square&labelColor=0e100f)
 
-![sections](https://img.shields.io/badge/sections-87-0ae448?style=flat-square&labelColor=0e100f)
-![options](https://img.shields.io/badge/options-~7,000-fffce1?style=flat-square&labelColor=0e100f)
-![images](https://img.shields.io/badge/images-0-ff8709?style=flat-square&labelColor=0e100f)
-![single file](https://img.shields.io/badge/one-HTML%20file-00bae2?style=flat-square&labelColor=0e100f)
-![offline](https://img.shields.io/badge/works-offline-fec5fb?style=flat-square&labelColor=0e100f)
-
-**[▷ Open ayaan.lol](https://ayaan.lol)** · [Download the zip](#-quick-start) · [The 100-star goal](#--the-100-star-goal)
-
-<img src="preview.png" width="860" alt="ayaan.lol — hero">
+<p>
+  <img src="preview.png" width="860" alt="The ayaan.lol live showcase hero">
+</p>
 
 </div>
 
----
+## Overview
 
-## ⚡ What is this
+ayaan.lol is a live, interactive reference for building expressive web interfaces with Claude. It presents animation patterns, design tokens, components, visual systems, and complete interface sections in one navigable experience.
 
-A full showcase of a **website-design skill for Claude** — the skill was trained on
-thousands of invented components, and this page is the live proof. Everything moves:
-click it, drag it, hover it, scroll it.
+The showcase focuses on interaction quality. Click, drag, hover, scroll, and switch between visual systems to inspect how each pattern behaves.
 
-## 🗺 The 11 chapters
+> The repository currently acts as the public project landing page and visual preview. The full showcase runs at [ayaan.lol](https://ayaan.lol).
 
-| # | Chapter | Sections | Inside |
-|---|---|:---:|---|
-| I | **Learn** | 12 | tweens, timelines & position parameters, the 100-ease lab, stagger, ScrollTrigger, text effects, Draggable, Flip, MotionPath, Observer, morphing |
-| II | **Identity** | 6 | design tokens, logo system, wordmarks — token by token |
-| III | **Components** | 23 | buttons, inputs, cards, charts, toasts, tables, dialogs, players — the full UI kit |
-| IV | **Assets** | 7 | shape vault, icons, badges, avatars, shadows, chain & token icons, real project logos |
-| V | **Anime** | 7 | manga SFX stamps, kotatsu bubbles, sakura weather, isekai RPG windows, mecha HUD, kawaii controls, **a working gacha theater** |
-| VI | **Labs** | 3 | 10 niche landing kits · 10 trend aesthetics on one live control · 10 structural patterns |
-| VII | **Sky** | 2 | 100 pure-CSS animated skies + a live weather station |
-| VIII | **A–H** | 8 | alerts, buttons, cards, dropdowns, empty states, forms, galleries, heroes |
-| IX | **I–P** | 8 | icons, auth, KPIs, loaders, modals, notifications, onboarding, pricing |
-| X | **Q–Z** | 10 | quotes, ratings, search, tables, users, video, wizards, dismiss, confirms, zoom |
-| XI | **Index** | 1 | the full syllabus |
+## What you will find
 
-**Every vault holds exactly 100 options.** Click any card to copy its snippet.
+| Area | Coverage |
+| --- | --- |
+| Animation | Tweens, timelines, easing, stagger, ScrollTrigger, SplitText, Draggable, Flip, MotionPath, Observer, and morphing |
+| Identity | Design tokens, logo systems, wordmarks, color, type, and spacing |
+| Components | Buttons, inputs, cards, charts, toasts, tables, dialogs, players, and app-shell patterns |
+| Assets | Shapes, icons, badges, avatars, shadows, chain icons, token icons, and project logos |
+| Anime systems | Manga effects, kotatsu bubbles, weather, RPG windows, mecha HUDs, kawaii controls, and a gacha theater |
+| Landing systems | Niche landing kits, trend aesthetics, structural patterns, and complete hero sections |
+| Sky systems | Pure CSS animated skies and an interactive weather station |
+| A to Z library | Alerts, authentication, KPIs, loaders, modals, notifications, onboarding, pricing, search, users, video, wizards, and more |
 
-## ✨ Highlights
+The live page contains 11 chapters, 87 sections, and more than 6,700 selectable options. Each vault holds 100 options, and many examples expose copyable snippets.
 
-- 🎰 **Gacha theater** — a real summon sequence: accelerating rings, screen flash, rarity slam (R → UR with hue-cycling sparkles), pity counter included
-- 🌦 **Weather station** — pick a city, the sky crossfades to its live condition, temperature counts to its reading
-- 🎛 **Aesthetic switcher** — one control, ten skins: minimalism, neo-brutalism, bento, glass, neumorphic, clay, vaporwave, y2k, cyberpunk, 8-bit pixel — every skin still works
-- 🖱 **Draggable everything** — inertia tosses, snap grids, split panes, resizable responsive stages
-- ⌨️ **Command palette** — the full app-shell pattern, working
+## Highlights
 
-## 🚀 Quick start
+- A working gacha theater with rarity states, screen flash, rings, sparkles, and a pity counter.
+- A weather station with city selection, crossfaded skies, and animated temperature values.
+- Ten visual systems, including minimal, bento, glass, clay, vaporwave, Y2K, cyberpunk, and pixel styles.
+- Drag interactions with inertia, snapping, split panes, and resizable stages.
+- A command palette pattern for app-shell navigation.
+- A reduced-motion path for users who prefer less animation.
+
+## Quick start
+
+This repository does not require a build step.
 
 ```bash
-# unzip, then just open it — no server, no build, no dependencies
-open index.html
+git clone https://github.com/ayaanoncrypto/WebsiteDesignSkillForclaude.git
+cd WebsiteDesignSkillForclaude
 ```
 
-That's the whole install. The `engine/` folder and `logos-data.js` ride along in the zip.
+Open the project preview in your browser:
 
-## 🧠 Under the hood
+```text
+https://ayaan.lol
+```
 
-- **One HTML file** — all 87 sections inline, ~3.4 MB of hand-built markup
-- **Zero images** — every ornament, logo shape and scene is inline SVG or pure CSS
-- **Local motion engine** — ships with its engine in `engine/`, fully offline
-- **Seeded randomness** — every particle field and sparkline falls the same way every time
-- **The house palette** — warm near-black `#0e100f`, cream `#fffce1`, electric green `#0ae448`, pink `#fec5fb`, orange `#ff8709`, blue `#00bae2` — nothing off-grid
+If you downloaded the full showcase archive, open its `index.html` file directly. The live project uses inline SVG, CSS motion, and a local motion engine, so it works without a package install or application server.
 
----
+## Repository layout
 
-<div align="center">
+```text
+.
+├── README.md       Project overview and developer guide
+├── preview.png     README hero preview
+└── .github/
+    └── ISSUE_TEMPLATE/
+        └── site-issue.yml
+```
 
-## ⭐ The 100-star goal
+The repository intentionally keeps the public landing page lightweight. The live implementation remains at [ayaan.lol](https://ayaan.lol).
 
-> ### If this repo reaches **100 stars**, I publish the **skill file** —
-> the trained skill that generated every pixel of this page:
-> 22 catalogs · 18 generators · ~7,000 options · ready to drop into Claude.
+## Design system
 
-**Star ⭐ · Watch 👀 · Share 🔗**
+The project uses a fixed house palette:
 
-</div>
+| Token | Value | Use |
+| --- | --- | --- |
+| Near black | `#0e100f` | Base surfaces and background |
+| Cream | `#fffce1` | Primary text and contrast |
+| Electric green | `#0ae448` | Active states and highlights |
+| Pink | `#fec5fb` | Accent surfaces |
+| Orange | `#ff8709` | Warm interactive states |
+| Blue | `#00bae2` | Informational accents |
 
----
+The page pairs PP Mori with Plus Jakarta Sans. It uses inline SVG and CSS for ornaments, diagrams, scenes, and motion details.
 
-<div align="center">
+## Working with the preview
 
-<sub>© Ayaan — <a href="https://ayaan.lol">ayaan.lol</a> · <a href="https://www.onchainbio.click/ayaan">onchainbio.click/ayaan</a> · built with the skill trained by Ayaan</sub>
+The `preview.png` file shows the current live hero state. Update it when the first viewport changes.
 
-</div>
+```bash
+# Replace preview.png with a fresh screenshot of the live hero.
+# Keep the final file readable in GitHub's README renderer.
+```
+
+Keep preview changes focused. A preview should show the product, not the browser chrome or debugging overlays.
+
+## Contributing
+
+Small documentation fixes and preview improvements are welcome. Before opening an issue or pull request:
+
+1. Check the live page at [ayaan.lol](https://ayaan.lol).
+2. Search existing [issues](https://github.com/ayaanoncrypto/WebsiteDesignSkillForclaude/issues).
+3. Describe the visible behavior, expected behavior, and reproduction steps.
+4. Keep visual changes aligned with the existing palette, typography, and motion direction.
+5. Include a before and after image for visual changes.
+
+Use the repository issue form for site problems. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution checklist.
+
+## Project direction
+
+The public goal is to publish the underlying skill file when the repository reaches 100 stars. The planned release includes the catalogs, generators, and references used to produce the showcase.
+
+## Credits
+
+Created by [Ayaan](https://www.onchainbio.click/ayaan).
+
+- Live project: [ayaan.lol](https://ayaan.lol)
+- Repository: [WebsiteDesignSkillForclaude](https://github.com/ayaanoncrypto/WebsiteDesignSkillForclaude)
+- Preview asset: `preview.png`
+
+## License
+
+No license has been published yet. Until a license appears in this repository, treat the source and assets as all rights reserved.

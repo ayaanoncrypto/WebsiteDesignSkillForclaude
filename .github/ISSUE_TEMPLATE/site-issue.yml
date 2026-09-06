@@ -1,0 +1,61 @@
+name: Site issue
+description: Report a broken link, rendering defect, accessibility problem, or preview mismatch.
+title: "[site] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a site issue. Please include enough detail to reproduce it.
+
+  - type: input
+    id: page
+    attributes:
+      label: Page or section
+      description: Share the URL or name of the section where the issue appears.
+      placeholder: https://ayaan.lol or Components > Cards
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain what happened and what you expected to happen.
+      placeholder: Describe the observed and expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: List the smallest set of steps that reproduces the issue.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 140, Firefox 142, Safari 18
+    validations:
+      required: true
+
+  - type: input
+    id: viewport
+    attributes:
+      label: Viewport
+      placeholder: 1440 x 900
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Add screenshots, recordings, console output, or other useful context.
+      placeholder: Drag files here or paste links.
